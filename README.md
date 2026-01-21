@@ -128,5 +128,19 @@ To address the limitations above, the next development phase will focus on:
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/yourusername/NutriScan-AI.git](https://github.com/yourusername/NutriScan-AI.git)
+git clone [https://github.com/CrystalySwift/NutriScan-AI.git](https://github.com/CrystalySwift/NutriScan-AI.git)
 cd NutriScan-AI
+``` 
+
+### 2. Download Model (Required)  
+Due to GitHub's file size limits, the pre-trained EfficientNet model (`best_food_effnet.keras`) is hosted externally.
+
+1. **[CLICK HERE TO DOWNLOAD MODEL]** ([LINK_GOOGLE_DRIVE_ANDA](https://drive.google.com/file/d/14jUVP-ys6k6KTlSyd09gDjVIARg9e0_g/view?usp=sharing))
+2. Once downloaded, place the file in the root directory of the project (inside the `NutriScan-AI` folder).
+
+> **Note:** The application will fail to run if this file is missing or placed in the wrong folder.
+
+### 3. Install Dependencies
+Install the required Python packages:
+```bash
+pip install -r requirements.txt
