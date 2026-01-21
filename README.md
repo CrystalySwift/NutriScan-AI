@@ -135,7 +135,7 @@ cd NutriScan-AI
 ### 2. Download Model (Required)  
 Due to GitHub's file size limits, the pre-trained EfficientNet model (`best_food_effnet.keras`) is hosted externally.
 
-1. **[CLICK HERE TO DOWNLOAD MODEL]** (https://drive.google.com/file/d/14jUVP-ys6k6KTlSyd09gDjVIARg9e0_g/view?usp=sharing)
+1. **[CLICK HERE TO DOWNLOAD MODEL]([https://drive.google.com/file/d/123abc456/view](https://drive.google.com/file/d/14jUVP-ys6k6KTlSyd09gDjVIARg9e0_g/view?usp=sharing))**
 2. Once downloaded, place the file in the root directory of the project (inside the `NutriScan-AI` folder).
 
 > **Note:** The application will fail to run if this file is missing or placed in the wrong folder.
